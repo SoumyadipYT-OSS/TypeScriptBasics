@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript compiled files
+*.js
+*.js.map
+
+# Build directories
+dist/
+build/
+
+# TypeScript configuration
+tsconfig.json
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+.vs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
