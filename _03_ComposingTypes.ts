@@ -26,4 +26,14 @@ function wrapInArray(obj: string | string[]) {
 
 /*===============GENERICS===============*/
 
+type StringArray = Array<string>;
+type NumberArray = Array<number>;
+type ObjectWithNameArray = Array<{ name: string }>;
 
+// Example
+interface Backpack<Type> {
+    add: (obj: Type) => void;
+    get: () => Type;
+}
+
+declare const backpack: Backpack<string>;
